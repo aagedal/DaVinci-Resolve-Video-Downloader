@@ -13,7 +13,7 @@ Then the script automatically imports the video into DaVinci Resolve Media Pool.
 
 ## Installation
 
-### 1 – Copy the .py-file into the folder into DaVinci Resolves script-folder
+### 1 – Copy the Video_Downloader.py-file into the folder into DaVinci Resolves script-folder
 so that Resolve can find it. You may need to restart Resolve for it to show up.
 
 #### Blackmagic Design-installer version:
