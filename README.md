@@ -1,7 +1,7 @@
 # DaVinci Resolve Video Downloader
 
 
-### About
+## About
 A python script for DaVinci Resolve (Studio) for macOS (support for other platforms may come in the future). Intended to be started from within Resolve.
 The script starts a GUI where you can paste a link to a YouTube, TikTok, Instagram, or other web video. Click the Download-button to download to a specified location using yt-dlp.
 
@@ -19,6 +19,9 @@ Copy the .py-file into the folder into DaVinci Resolves script-folder so that Re
 
 #### Mac App Store version: NOTE
 ~/Library/Containers/com.blackmagic-design.DaVinciResolveAppStore/Data/Library/Application\ Support/Fusion/Scripts/Deliver/
+
+#### Install Homebrew: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#### Install ffmpeg and yt-dlp with homebrew: brew install ffmpeg && brew install yt-dlp
 
 
 ## Usage
