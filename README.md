@@ -29,9 +29,9 @@ Copy the .py-file into the folder into DaVinci Resolves script-folder so that Re
 
 
 ## Goals
-[] Make it remember your chosen download-folder.
+- [ ] Make it remember your chosen download-folder.
 	- Work not started.
-[] Update UI to display download and conversion process
+- [ ] Update UI to display download and conversion process
 	- Work not started.
 
 
