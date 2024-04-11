@@ -17,12 +17,12 @@ Then the script automatically imports the video into DaVinci Resolve Media Pool.
 so that Resolve can find it. You may need to restart Resolve for it to show up.
 
 #### Blackmagic Design-installer version:
-`~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Deliver/`
+`~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Utility/`
 
 #### Mac App Store version:
 NOTE – this version seems to have problems because of macOS Sandboxing. The script may not work.
-`~/Library/Containers/com.blackmagic-design.DaVinciResolveAppStore/Data/Library/Application\ Support/Fusion/Scripts/Deliver/`
-Note that this directory may not be directly accessible from Finder in normal ways. Another way to access it, is to right click DaVinci Resolve Studio.app in the Applications directory, click Show Package Contents, then 
+`~/Library/Containers/com.blackmagic-design.DaVinciResolveAppStore/Data/Library/Application\ Support/Fusion/Scripts/Utility/`
+Note that this directory may not be directly accessible from Finder in normal ways. Another way to access it, is to right click DaVinci Resolve Studio.app in the Applications directory, click Show Package Contents, then Contents -> Resources -> Fusion -> Scripts -> Utility
 
 ### 2 – Install Homebrew:
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
@@ -32,6 +32,8 @@ Note that this directory may not be directly accessible from Finder in normal wa
 
 ### 4 – Install python
 Important! Do not install this via Homebrew. It creates problems for DaVinci Resolve linking to pip-packages.
+Install via python.org:
+`https://www.python.org/downloads/`
 
 
 
