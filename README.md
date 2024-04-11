@@ -12,19 +12,27 @@ Then the script automatically imports the video into DaVinci Resolve Media Pool.
 
 
 ## Installation
-Copy the .py-file into the folder into DaVinci Resolves script-folder so that Resolve can find it. You may need to restart Resolve for it to show up.
+
+### 1 – Copy the .py-file into the folder into DaVinci Resolves script-folder
+so that Resolve can find it. You may need to restart Resolve for it to show up.
 
 #### Blackmagic Design-installer version:
-~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Deliver/
+`~/Library/Application Support/Blackmagic Design/DaVinci Resolve/Fusion/Scripts/Deliver/`
 
-#### Mac App Store version: NOTE
-~/Library/Containers/com.blackmagic-design.DaVinciResolveAppStore/Data/Library/Application\ Support/Fusion/Scripts/Deliver/
+#### Mac App Store version:
+NOTE – this version seems to have problems because of macOS Sandboxing. The script may not work.
+`~/Library/Containers/com.blackmagic-design.DaVinciResolveAppStore/Data/Library/Application\ Support/Fusion/Scripts/Deliver/`
+Note that this directory may not be directly accessible from Finder in normal ways. Another way to access it, is to right click DaVinci Resolve Studio.app in the Applications directory, click Show Package Contents, then 
 
-#### Install Homebrew:
+### 2 – Install Homebrew:
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-#### Install ffmpeg and yt-dlp with homebrew:
+### 3 – Install ffmpeg and yt-dlp with homebrew:
 `brew install ffmpeg && brew install yt-dlp`
+
+### 4 – Install python
+Important! Do not install this via Homebrew. It creates problems for DaVinci Resolve linking to pip-packages.
+
 
 
 ## Usage
@@ -36,6 +44,13 @@ Copy the .py-file into the folder into DaVinci Resolves script-folder so that Re
 	- Work not started.
 - [ ] Update UI to display download and conversion process
 	- Work not started.
+- [ ] Make script work on Windows and Linux
+	- [ ] Windows
+		- [ ] Create install instructions for ffmpeg and yt-dlp based on os
+		- [ ] Make script link to correcd binary path based on os
+	- [ ] Linux
+		- [ ] Create install instructions for ffmpeg and yt-dlp based on os
+		- [ ] Make script link to correct binary path based on os
 
 
 
