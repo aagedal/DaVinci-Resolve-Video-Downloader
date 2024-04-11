@@ -20,8 +20,11 @@ Copy the .py-file into the folder into DaVinci Resolves script-folder so that Re
 #### Mac App Store version: NOTE
 ~/Library/Containers/com.blackmagic-design.DaVinciResolveAppStore/Data/Library/Application\ Support/Fusion/Scripts/Deliver/
 
-#### Install Homebrew: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-#### Install ffmpeg and yt-dlp with homebrew: brew install ffmpeg && brew install yt-dlp
+#### Install Homebrew:
+´/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"´
+
+#### Install ffmpeg and yt-dlp with homebrew:
+'brew install ffmpeg && brew install yt-dlp'
 
 
 ## Usage
